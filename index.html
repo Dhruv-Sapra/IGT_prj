@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Example Page</title>
+  <title>Impact of Population</title>
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
     h1 {
-      font-size: 24px;
+      font-size: 32px;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 40px;
+      color: #333333;
     }
 
     h3 {
+      font-size: 24px;
       text-align: center;
       margin-top: -15px;
+      color: #666666;
     }
 
     p {
-      margin: 20px 0;
-      margin-left: 3%;
-      margin-right: 3%;
+      margin: 20px 3%;
       text-align: justify;
+      color: #333333;
     }
 
     iframe {
       width: 94%;
       height: 400px;
-      margin-top: 20px;
-      margin-left: 3%;
-      margin-right: 3%;
+      margin: 20px 3%;
+      border: none;
     }
 
     #hello {
         text-align: center;
+        color: black;
+        font-weight: bold;
+        margin-top: 40px;
+        font-size: 24px;
+        margin-bottom: -5px;
+      }
+
+    #conclusion {
+      margin: 20px 3%;
+      color: #333333;
+      padding-bottom: 5%;
+    }
+
+    #conclusion b {
+      color: #666666;
     }
 
   </style>
@@ -46,7 +69,7 @@
     The relationship between deforestation and changes in forest cover and population is interconnected:
     <br>
     <br>
-    <b>Forest Cover Change :</b> Deforestation directly impacts changes in forest cover. As human activities lead to the clearance of trees, the forest cover diminishes. The loss of forest cover disrupts ecological balance, affects wildlife habitats, and increases the risk of soil erosion, landslides, and flooding. Reduced forest cover also contributes to climate change by reducing the absorption of carbon dioxide through photosynthesis.
+    <b>Forest Cover Change:</b> Deforestation directly impacts changes in forest cover. As human activities lead to the clearance of trees, the forest cover diminishes. The loss of forest cover disrupts ecological balance, affects wildlife habitats, and increases the risk of soil erosion, landslides, and flooding. Reduced forest cover also contributes to climate change by reducing the absorption of carbon dioxide through photosynthesis.
     <br>
     <br>
     <b>Population Change:</b> The growth or decline of the human population can influence the rate of deforestation. A rapidly growing population exerts more pressure on forests, increasing the likelihood of deforestation. On the other hand, in some regions, depopulation and rural abandonment can lead to forest regrowth as agricultural land is reclaimed by nature.
@@ -57,11 +80,15 @@
   <p id="hello">AQI</p>
   <iframe src="//vjtifdcgis.maps.arcgis.com/apps/Embed/index.html?webmap=d0ab81a40e684f4183308637bedcbcc6&extent=57.4664,8.5045,109.278,34.2432&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe>
 
-  <p><b>CONCLUSION:</b>
+  <p id="conclusion">
+    <b>CONCLUSION:</b>
     <br>
-    * Areas having more rapid population growth have lesser forest cover change, which can be positive or negative growth in forest cover growth. Such regions have lower Air Quality Index.
+    * Areas with more rapid population growth have lesser forest cover change, which can result in positive or negative growth in forest cover. Such regions tend to have a lower Air Quality Index
+
+.
     <br>
-    * Areas having less rapid population growth have more forest cover change, which is generally positive  growth in forest cover. Such regions have higher Air Quality Index. </p>
+    * Areas with less rapid population growth experience more forest cover change, typically showing positive growth in forest cover. Such regions tend to have a higher Air Quality Index.
+  </p>
 
 </body>
 </html>
